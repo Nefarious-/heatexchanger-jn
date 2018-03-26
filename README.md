@@ -22,4 +22,5 @@ Standard Curves Plotted
 
 ![Interpolation Example](images/interpolation.png)
 Interpolated curves plotted
+
 ---
