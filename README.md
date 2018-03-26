@@ -1,7 +1,7 @@
 ### Usage
 ---
 ```vbnet
-=JnTubeSide(L/D, Re)'calculates the tube side heat transfer coefficient
+=JnTubeSide(L/D, Re)	'calculates the tube side heat transfer coefficient
 
 =JnShellSide25(Re)	'calculates the shell side heat transfer coefficient (for a 25% baffle cut)
 ```
