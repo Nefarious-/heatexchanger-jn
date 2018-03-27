@@ -1,4 +1,3 @@
-Attribute VB_Name = "HeatTransfer"
 Function JnTubeSide(LD, Re)
     Select Case LD
         Case Is < 24
