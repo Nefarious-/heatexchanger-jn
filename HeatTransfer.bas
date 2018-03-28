@@ -30,7 +30,7 @@ Function JnShellSide25(Re)
         Case 107.9 To 100000
             JnShellSide25 = 0.4257 * Re ^ -0.466
         Case Is >= 100000
-            JnShellSide25 = 34.142 * Re ^ -0.446
+            JnShellSide25 = 0.34142 * Re ^ -0.446
     End Select
 End Function
 
