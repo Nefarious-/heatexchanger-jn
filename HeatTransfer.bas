@@ -88,3 +88,23 @@ Private Function calc500(Re)
             calc500 = 0.0276 * Re ^ -0.2
     End Select
 End Function
+
+Function JfTubeSide(Re)
+    Select Case Re
+        Case 10 To 820
+            JfTubeSide = 8 / Re
+        Case Is >= 820
+            JfTubeSide = 0.0542 * Re ^ -0.261
+    End Select
+End Function
+
+Function JfShellSide25(Re)
+    Select Case Re
+        Case 10 To 300
+            JfShellSide25 = 16.42 * Re ^ -0.895
+        Case 300 To 1000
+            JfShellSide25 = 0.5346 * Re ^ -0.295
+        Case Is >= 1000
+            JfShellSide25 = 0.1976 * Re ^ -0.149
+    End Select
+End Function
