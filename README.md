@@ -3,7 +3,11 @@
 ```vbnet
 =JnTubeSide(L/D, Re)	'calculates the tube side heat transfer coefficient
 
-=JnShellSide25(Re)	'calculates the shell side heat transfer coefficient (for a 25% baffle cut)
+=JnShellSide25(Re)	  'calculates the shell side heat transfer coefficient (for a 25% baffle cut)
+
+=JfTubeSide(Re)       'calculates the tube side friction factor
+
+=JfShellSide25(Re)    'calculates the shell side friction factor (for a 25% baffle cut)
 ```
 Where `Re` is Reynold's number, and `L/D` is the `length:diameter` ratio of the tubes.
 
